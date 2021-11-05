@@ -9,6 +9,7 @@ made with chakra-ui, express, graphQL and next-js
 > * URQL
 > * MVC Architectural Pattern
 > * SQL
+> * Typescript
 
 #### More specifically, I used the following:
 > * Dependency injection

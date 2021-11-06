@@ -7,24 +7,26 @@ made with chakra-ui, express, graphQL and next-js
 ### The purpose of this project is to learn and practice concepts related to:<br />
 > * Building a GraphQL API
 > * URQL
-> * MVC Architectural Pattern
 > * SQL
+> * SDL and Typescript
 
 #### More specifically, I used the following:
 > * Dependency injection
 > * postgreSQL pgdmin and command line
 > * mikroORM (DBContext, Migration)
 > * GraphQL (query, mutation, schemas and fragments)
-> * HTTP (GET, POST, PUT, PATCH, DELETE, status codes)
 > * Testing API Endpoints (graphQL playground)
 > * Docker (Container, Image, Deploying on Docker Hub)
 > * Heroku (back-end + postgreSQL + redis)
 > * Vercel (front-end) 
 > * database design 
 > * syncing data base model with schema
-> * dataloader
+> * dataloader(n+1 problem)
 > * styled-component library (chakra-UI)  
 > * session management (redis)
+> * Cursor-based Pagination
+> * Formik
+> * argon2 (hashed password)
 
 _Note: Please excuse the large amount of comments in my code, they are used as notes for later review._
 

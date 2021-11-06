@@ -21,7 +21,7 @@ made with chakra-ui, express, graphQL and next-js
 > * Vercel (front-end) 
 > * database design 
 > * syncing data base model with schema
-> * dataloader
+> * dataloader(n+1 problem)
 > * styled-component library (chakra-UI)  
 > * session management (redis)
 > * Cursor-based Pagination

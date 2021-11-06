@@ -15,7 +15,6 @@ made with chakra-ui, express, graphQL and next-js
 > * postgreSQL pgdmin and command line
 > * mikroORM (DBContext, Migration)
 > * GraphQL (query, mutation, schemas and fragments)
-> * HTTP (GET, POST, PUT, PATCH, DELETE, status codes)
 > * Testing API Endpoints (graphQL playground)
 > * Docker (Container, Image, Deploying on Docker Hub)
 > * Heroku (back-end + postgreSQL + redis)
@@ -25,6 +24,7 @@ made with chakra-ui, express, graphQL and next-js
 > * dataloader
 > * styled-component library (chakra-UI)  
 > * session management (redis)
+> * Cursor-based Pagination
 
 _Note: Please excuse the large amount of comments in my code, they are used as notes for later review._
 

@@ -7,9 +7,8 @@ made with chakra-ui, express, graphQL and next-js
 ### The purpose of this project is to learn and practice concepts related to:<br />
 > * Building a GraphQL API
 > * URQL
-> * MVC Architectural Pattern
 > * SQL
-> * Typescript
+> * SDL and Typescript
 
 #### More specifically, I used the following:
 > * Dependency injection

@@ -25,6 +25,8 @@ made with chakra-ui, express, graphQL and next-js
 > * styled-component library (chakra-UI)  
 > * session management (redis)
 > * Cursor-based Pagination
+> * Formik
+> * argon2 (hashed password)
 
 _Note: Please excuse the large amount of comments in my code, they are used as notes for later review._
 

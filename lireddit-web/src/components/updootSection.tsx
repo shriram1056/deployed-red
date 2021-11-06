@@ -35,6 +35,7 @@ const updateAfterVote = (
     }
     const newPoints =
       (data.points as number) + (!data.voteStatus ? 1 : 2) * value
+    // vote status is stored in updoot, it shows whether you voted or not, value is -1 or 1
     cache.writeFragment({
       id: 'Post:' + postId,
       fragment: gql`
@@ -48,9 +49,10 @@ const updateAfterVote = (
   }
 }
 export const UpdootSection: React.FC<UpdootSectionProps> = ({ post }) => {
-  const [loadingState, setLoadingState] = useState<
-    'updoot-loading' | 'downdoot-loading' | 'not-loading'
-  >('not-loading') // there are 3 types in this
+  const [loadingState, setLoadingState] =
+    useState<'updoot-loading' | 'downdoot-loading' | 'not-loading'>(
+      'not-loading'
+    ) // there are 3 types in this
   const [vote] = useVoteMutation()
   return (
     <Flex direction="column" justifyContent="center" alignItems="center" mr={4}>

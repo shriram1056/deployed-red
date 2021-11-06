@@ -10,7 +10,7 @@ sess:qwoeiuowqjoqjw -> { userId: 1 }
 express-session will set a cookie on my browser qwoieu9012798quw9euoe1i2uo
 
 3
-when user makes a request, a cookie is sent to the browser
+when user makes a request, a cookie is sent to the server
 qwoieu9012798quw9euoe1i2uo -> sent to the server
 
 4

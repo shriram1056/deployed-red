@@ -105,7 +105,7 @@ export class PostResolver {
     @Arg('value', () => Int) value: number
   ) {
     const { userId } = req.session
-    const isUpdoot = value !== -1
+    const isUpdoot = value !== -1 // aything other than -1 is considered updoot
     const realValue = isUpdoot ? 1 : -1
 
     const updoot = await Updoot.findOne({ where: { postId, userId } })

@@ -30,7 +30,7 @@ const main = async () => {
     // username: 'postgres',
     // password: 'postgres',
     url: process.env.DATABASE_URL,
-    ssl: { rejectUnauthorized: false }, // DEPLOYMENT: INCLUDE FOR NO FAILURE
+    ssl: { rejectUnauthorized: false }, // DEPLOYMENT: INCLUDE FOR NO FAILURE or ssl trigers
     logging: true,
     // synchronize: true, //  Indicates if database schema should be auto created on every application launch.
     migrations: [path.join(__dirname, './migrations/*')], // current dir + /migrations/*
@@ -70,7 +70,7 @@ const main = async () => {
         maxAge: 1000 * 60 * 24 * 365 * 10, //10year is for expiring the cookie
         httpOnly: true, // doesn't allow front-end to access cookie
         secure: __prod__, // HTTPS is necessary for secure cookies. If secure is set, and you access your site over HTTP, the cookie will not be set.
-        sameSite: 'none', //csrf - lax
+        sameSite: 'none', // this is for cross-site requests or different domain name of server and browser. for 'none' to work secure must be enables
         //  domain: __prod__ ? '.herokuapp.com' : undefined,
       },
       secret: process.env.SECRET as string,

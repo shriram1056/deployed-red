@@ -33,6 +33,5 @@ _Note: Please excuse the large amount of comments in my code, they are used as n
 a online voting website </br>
 users can create,delete and update post. </br>
 user can upvote their own post as well as other people's post. </br>
-user sessions are managed with express-session.
 
 see the project in action:https://www.youtube.com/watch?v=uckb1bDCz7g

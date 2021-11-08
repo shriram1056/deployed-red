@@ -11,7 +11,6 @@ made with chakra-ui, express, graphQL and next-js
 > * SDL and Typescript
 
 #### More specifically, I used the following:
-> * Dependency injection
 > * postgreSQL pgdmin and command line
 > * mikroORM (DBContext, Migration)
 > * GraphQL (query, mutation, schemas and fragments)
@@ -20,10 +19,9 @@ made with chakra-ui, express, graphQL and next-js
 > * Heroku (back-end + postgreSQL + redis)
 > * Vercel (front-end) 
 > * database design 
-> * syncing data base model with schema
+> * syncing data base model with schema (type-graphQL)
 > * dataloader(n+1 problem)
 > * styled-component library (chakra-UI)  
-> * type-graphQL
 > * session management (redis)
 > * Cursor-based Pagination
 > * Formik

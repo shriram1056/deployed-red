@@ -23,6 +23,7 @@ made with chakra-ui, express, graphQL and next-js
 > * syncing data base model with schema
 > * dataloader(n+1 problem)
 > * styled-component library (chakra-UI)  
+> * type-graphQL
 > * session management (redis)
 > * Cursor-based Pagination
 > * Formik

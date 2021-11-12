@@ -1,4 +1,6 @@
-# lireddit https://lireddit1056.vercel.app/ (there is 3rd party cookie issue as I didn't want to pay for domain name every year)
+# lireddit https://lireddit1056.vercel.app/ 
+
+_Note: there is 3rd party cookie issue which destroys the cookie on refresh cause I didn't buy a domain name_
 
 made with chakra-ui, express, graphQL and next-js
 

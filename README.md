@@ -14,7 +14,7 @@ made with chakra-ui, express, graphQL and next-js
 > * postgreSQL pgdmin and command line
 > * mikroORM (DBContext, Migration)
 > * GraphQL (query, mutation, schemas and fragments)
-> * Testing API Endpoints (graphQL playground)
+> * Testing API Endpoints (graphQL playground and postman)
 > * Docker (Container, Image, Deploying on Docker Hub)
 > * Heroku (back-end + postgreSQL + redis)
 > * Vercel (front-end) 

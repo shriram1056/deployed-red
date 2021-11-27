@@ -13,7 +13,7 @@ made with chakra-ui, express, graphQL and next-js
 > * SDL and Typescript
 
 #### More specifically, I used the following:
-> * postgreSQL pgdmin and command line
+> * postgreSQL pgdmin and psql
 > * mikroORM (DBContext, Migration)
 > * GraphQL (query, mutation, schemas and fragments)
 > * Testing API Endpoints (graphQL playground and postman)
